@@ -1,0 +1,14 @@
+{
+  "name": "mosheshi-liveperson_test_sites",
+  "version": "0.1.0",
+  "author": "mosheshi",
+  "summary": "Publishes LivePerson test website for chat simulations",
+  "license": "Apache 2.0",
+  "source": "https://github.com/MoShitrit/puppet-liveperson_test_sites",
+  "project_page": "https://github.com/MoShitrit/puppet-liveperson_test_sites",
+  "issues_url": "https://github.com/MoShitrit/puppet-liveperson_test_sites/issues",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
