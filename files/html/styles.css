@@ -3,11 +3,10 @@
 }
 
 body{
-    background-image: url(Pics/maxresdefault.jpg)
+    background-image: url(html/Pics/maxresdefault.jpg)
 }
 
 header{
-    color: whitesmoke;
     text-align: center;
     text-decoration: underline;
     font-weight: bolder;
@@ -83,7 +82,7 @@ section{
     font-weight: bold;
 }
 
-section a:not(#mailUs):not(#backHome){
+section a{
     display: block;
     margin-left: 20px;
     margin-top: 20px;
