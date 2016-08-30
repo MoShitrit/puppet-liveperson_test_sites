@@ -1,5 +1,5 @@
 class liveperson_test_sites {
-  file { '/liveperson/code/server_openresty/nginx/html':
+  file { ['/liveperson/code/server_openresty', '/liveperson/code/server_openresty/nginx/html']:
     ensure => 'directory',
     owner => 'root',
     group => 'root',
@@ -10,7 +10,7 @@ class liveperson_test_sites {
     source => 'puppet:///modules/liveperson_test_sites/html/',
   }
 
-  file { '/liveperson/data/server_openresty/logs':
+  file { ['/liveperson/data/server_openresty', '/liveperson/data/server_openresty/logs']:
     ensure => 'directory',
     owner => 'root',
     group => 'root',
